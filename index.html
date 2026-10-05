@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>What Happens Next? 🔮</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Animated background -->
+    <div class="background">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="orb orb-three"></div>
+    </div>
+
+
+    <!-- Navigation -->
+    <nav>
+
+        <div class="logo">
+            <span>✦</span>
+            What Happens Next?
+        </div>
+
+        <div class="nav-badge">
+            🔮 Future Generator
+        </div>
+
+    </nav>
+
+
+    <!-- Main -->
+    <main>
+
+        <section class="hero">
+
+            <div class="badge">
+                ✨ Your future is waiting
+            </div>
+
+
+            <h1>
+                What Happens
+                <span>Next?</span>
+            </h1>
+
+
+            <p class="hero-text">
+                Give us a name. We'll give you a future.
+                <br>
+                Don't blame us if we expose you. 😭
+            </p>
+
+
+            <div class="buttons">
+
+                <button class="primary-btn" onclick="startGame('single')">
+                    🔮 Discover My Future
+                    <span>→</span>
+                </button>
+
+                <button class="secondary-btn" onclick="startGame('couple')">
+                    ❤️ Predict Our Future
+                </button>
+
+            </div>
+
+
+            <div class="trust">
+
+                <div>
+                    <strong>∞</strong>
+                    <span>Possible futures</span>
+                </div>
+
+                <div>
+                    <strong>0%</strong>
+                    <span>Scientific accuracy</span>
+                </div>
+
+                <div>
+                    <strong>100%</strong>
+                    <span>Entertainment</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Floating cards -->
+
+        <div class="floating-card card-one">
+            💰
+            <div>
+                <small>Future wealth</small>
+                <strong>₦284.7M</strong>
+            </div>
+        </div>
+
+
+        <div class="floating-card card-two">
+            ❤️
+            <div>
+                <small>Love status</small>
+                <strong>Dangerously in love</strong>
+            </div>
+        </div>
+
+
+        <div class="floating-card card-three">
+            👶
+            <div>
+                <small>Future children</small>
+                <strong>3 little problems</strong>
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <!-- Game Modal -->
+
+    <div class="modal" id="gameModal">
+
+        <div class="modal-card">
+
+            <button class="close-btn" onclick="closeGame()">×</button>
+
+            <div id="gameContent"></div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
